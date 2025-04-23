@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sean Zhou | XR Developer & Researcher</title>
+    <title> Xinyuan Sean Zhou, 周鑫源 | XR & AI Researcher</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -25,7 +25,7 @@
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
         }
         .section h2 {
-            color: #1e40af;
+            color: #2dd4bf;
             font-size: 1.8rem;
             font-weight: 700;
             margin-bottom: 1rem;
@@ -34,7 +34,21 @@
             transition: color 0.2s ease;
         }
         .nav-link:hover {
-            color: #1e40af;
+            color: #2dd4bf;
+        }
+        .header-text {
+            position: relative;
+        }
+        .header-text::after {
+            content: '';
+            position: absolute;
+            bottom: -0.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background-color: #2dd4bf;
+            border-radius: 2px;
         }
     </style>
 </head>
@@ -42,19 +56,19 @@
     <!-- Navigation -->
     <nav class="bg-white shadow sticky top-0 z-10">
         <div class="max-w-900 mx-auto px-4 py-4 flex justify-center space-x-6">
-            <a href="#about" class="nav-link text-gray-700 hover:text-blue-800 font-semibold">About</a>
-            <a href="#education" class="nav-link text-gray-700 hover:text-blue-800 font-semibold">Education</a>
-            <a href="#experience" class="nav-link text-gray-700 hover:text-blue-800 font-semibold">Experience</a>
-            <a href="#projects" class="nav-link text-gray-700 hover:text-blue-800 font-semibold">Projects</a>
-            <a href="#contact" class="nav-link text-gray-700 hover:text-blue-800 font-semibold">Contact</a>
+            <a href="#about" class="nav-link text-gray-700 hover:text-teal-500 font-semibold">About</a>
+            <a href="#education" class="nav-link text-gray-700 hover:text-teal-500 font-semibold">Education</a>
+            <a href="#experience" class="nav-link text-gray-700 hover:text-teal-500 font-semibold">Experience</a>
+            <a href="#projects" class="nav-link text-gray-700 hover:text-teal-500 font-semibold">Projects</a>
+            <a href="#contact" class="nav-link text-gray-700 hover:text-teal-500 font-semibold">Contact</a>
         </div>
     </nav>
 
     <!-- Header -->
-    <header class="bg-gradient-to-r from-blue-700 to-indigo-600 text-white text-center py-16">
-        <div class="section">
-            <h1 class="text-4xl md:text-5xl font-bold mb-3">Sean Zhou</h1>
-            <p class="text-xl md:text-2xl">XR Developer & Researcher | AI-Driven XR Technologies</p>
+    <header class="bg-gray-50 text-gray-800 text-center py-16">
+        <div class="max-w-900 mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-3 header-text">Xinyuan Sean Zhou, 周鑫源 </h1>
+            <p class="text-xl md:text-2xl">PhD Researcher | XR & AI</p>
         </div>
     </header>
 
@@ -62,7 +76,7 @@
     <section id="about" class="section">
         <h2>About Me</h2>
         <p class="text-gray-700 leading-relaxed">
-            I’m a passionate XR developer and researcher with a strong foundation in computer science and software engineering. My work focuses on AI-driven XR technologies, including augmented reality, computer vision, and AI agents. As a PhD researcher at the University of Helsinki, I bridge academia and industry to push the boundaries of XR and AI innovation.
+            I’m a passionate XR & AI researcher with a strong foundation in computer science and software engineering. My work focuses on AI-driven XR technologies, including augmented reality, computer vision, and AI agents. As a PhD researcher at the University of Helsinki, I bridge academia and industry to push the boundaries of XR and AI innovation.
         </p>
     </section>
 
@@ -119,7 +133,7 @@
                 <p class="text-gray-600">Jun 2024 – Oct 2024, Helsinki</p>
                 <ul class="list-disc pl-5 mt-2 text-gray-700">
                     <li>Created VR data visualization app for Meta Quest 2 using Unity and XR Interaction Toolkit.</li>
-                    <li>Web demo: <a href="https://play.unity.com/en/games/25beae12-2662-4e8d-9d44-ff8b7759413b/vr-basic" class="text-blue-600 hover:underline">VR Basic</a>.</li>
+                    <li>Web demo: <a href="https://play.unity.com/en/games/25beae12-2662-4e8d-9d44-ff8b7759413b/vr-basic" class="text-teal-500 hover:underline">VR Basic</a>.</li>
                 </ul>
             </div>
             <div>
@@ -134,7 +148,7 @@
                 <h3 class="text-xl font-semibold text-gray-800">Full Stack Developer – Unfair Advantage Oy</h3>
                 <p class="text-gray-600">Sep 2023 – Oct 2023, Helsinki</p>
                 <ul class="list-disc pl-5 mt-2 text-gray-700">
-                    <li>Contributed to <a href="https://stafftribes.com/" class="text-blue-600 hover:underline">stafftribes.com</a>, a sports-focused social platform.</li>
+                    <li>Contributed to <a href="https://stafftribes.com/" class="text-teal-500 hover:underline">stafftribes.com</a>, a sports-focused social platform.</li>
                     <li>Developed React components and backend features like notifications and events.</li>
                 </ul>
             </div>
@@ -169,15 +183,15 @@
         <h2>Contact</h2>
         <p class="text-gray-700 mb-4">Feel free to reach out for collaboration or inquiries:</p>
         <ul class="list-disc pl-5 text-gray-700">
-            <li>Email: <a href="mailto:sean.zhou@example.com" class="text-blue-600 hover:underline">sean.zhou@example.com</a></li>
-            <li>GitHub: <a href="https://github.com/yourusername" class="text-blue-600 hover:underline">github.com/yourusername</a></li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" class="text-blue-600 hover:underline">linkedin.com/in/yourprofile</a></li>
+            <li>Email: <a href="mailto:sean.zhou@example.com" class="text-teal-500 hover:underline">zhouxinyuan0118@outlook.com</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername" class="text-teal-500 hover:underline">https://github.com/xiaoShuZhou</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" class="text-teal-500 hover:underline">https://www.linkedin.com/in/xinyuan-zhou-%E1%AF%85-b9689a256/</a></li>
         </ul>
     </section>
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white text-center py-6">
-        <p>© 2025 Sean Zhou. All rights reserved.</p>
+        <p>© 2025 Xinyuan Zhou. All rights reserved.</p>
     </footer>
 </body>
 </html>
