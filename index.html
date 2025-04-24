@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Xinyuan Sean Zhou, 周鑫源 | XR & AI Researcher</title>
+    <title>Xinyuan Sean Zhou, 周鑫源 | XR & AI Researcher</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -50,6 +51,13 @@
             background-color: #2dd4bf;
             border-radius: 2px;
         }
+        .contact-icon {
+            color: #4b5563;
+            transition: color 0.2s ease;
+        }
+        .contact-icon:hover {
+            color: #2dd4bf;
+        }
     </style>
 </head>
 <body>
@@ -60,15 +68,25 @@
             <a href="#education" class="nav-link text-gray-700 hover:text-teal-500 font-semibold">Education</a>
             <a href="#experience" class="nav-link text-gray-700 hover:text-teal-500 font-semibold">Experience</a>
             <a href="#projects" class="nav-link text-gray-700 hover:text-teal-500 font-semibold">Projects</a>
-            <a href="#contact" class="nav-link text-gray-700 hover:text-teal-500 font-semibold">Contact</a>
         </div>
     </nav>
 
     <!-- Header -->
     <header class="bg-gray-50 text-gray-800 text-center py-16">
         <div class="max-w-900 mx-auto px-4">
-            <h1 class="text-4xl md:text-5xl font-bold mb-3 header-text">Xinyuan Sean Zhou, 周鑫源 </h1>
-            <p class="text-xl md:text-2xl">PhD Researcher | XR & AI</p>
+            <h1 class="text-4xl md:text-5xl font-bold mb-3 header-text">Xinyuan Sean Zhou, 周鑫源</h1>
+            <p class="text-xl md:text-2xl mb-6">PhD Researcher | XR & AI</p>
+            <div class="flex justify-center space-x-6">
+                <a href="mailto:zhouxinyuan0118@outlook.com" class="contact-icon">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+                <a href="https://github.com/xiaoShuZhou" class="contact-icon">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/xinyuan-zhou-%E1%AF%85-b9689a256/" class="contact-icon">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+            </div>
         </div>
     </header>
 
@@ -81,7 +99,7 @@
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="section">
+    <section id="about" class="section">
         <h2>Education</h2>
         <div class="space-y-6">
             <div>
@@ -176,17 +194,6 @@
                 </ul>
             </div>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p class="text-gray-700 mb-4">Feel free to reach out for collaboration or inquiries:</p>
-        <ul class="list-disc pl-5 text-gray-700">
-            <li>Email: <a href="mailto:sean.zhou@example.com" class="text-teal-500 hover:underline">zhouxinyuan0118@outlook.com</a></li>
-            <li>GitHub: <a href="https://github.com/yourusername" class="text-teal-500 hover:underline">https://github.com/xiaoShuZhou</a></li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" class="text-teal-500 hover:underline">https://www.linkedin.com/in/xinyuan-zhou-%E1%AF%85-b9689a256/</a></li>
-        </ul>
     </section>
 
     <!-- Footer -->
